@@ -1,5 +1,7 @@
 import React from "react";
-import { getImageUrl } from "../../utils";
+import email from "/assets/contact/mail.png";
+import linkedin from "/assets/contact/linkedin.png";
+import git from "/assets/contact/github.png";
 import styles from "./Contacts.module.css";
 
 export const  Contact = () => {
@@ -11,15 +13,15 @@ export const  Contact = () => {
             </div>
             <ul className={styles.links}>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/mail.png")} alt="Email icon"/>
+                    <img src={email} alt="Email icon"/>
                     <a href="mailto:zeland.lmedia@gmail.com">zeland.lmedia@gmail.com</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/linkedin.png")} alt="Email icon"/>
+                    <img src={linkedin} alt="Linkedin icon"/>
                     <a href="https://www.linkedin.com/in/zeland-klient-quijano-61a806354/">linkedin.com/in/zeland-klient-quijano</a>
                 </li>
                 <li className={styles.link}>
-                    <img src={getImageUrl("contact/github.png")} alt="Email icon"/>
+                    <img src={git} alt="Github icon"/>
                     <a href="https://github.com/Kei-psample">github.com/zeland-klient-quijano</a>
                 </li>
             </ul>

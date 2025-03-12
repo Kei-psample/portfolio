@@ -1,7 +1,8 @@
+
+
 [
     {
         "title": "Project A",
-        "imageSrc": "projects/projectA.png",
         "description": "This is a project to learn the latest React Nodejs.",
         "skills": ["React","Express", "Json", "Photoshop"],
         "demo": "https://vercel.com/zeland-klient-quijanos-projects/my-sample",
@@ -9,7 +10,6 @@
     },
     {
         "title": "Project B",
-        "imageSrc": "projects/projectB.png",
         "description": "This is a sample MernStack Project.",
         "skills": ["React","Express", "MongoDb", "CSS"],
         "demo": "https://vercel.com/zeland-klient-quijanos-projects/fsample",

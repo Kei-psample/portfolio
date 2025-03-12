@@ -1,8 +1,9 @@
 import React from "react";
 import styles from "./Experience.module.css";
-import { getImageUrl } from "../../utils";
 import skills from "../../Data/skills.json";
 import history from "../../Data/history.json";
+
+const getImageUrl = (path) => `/assets/${path}`;
 
 export const Experience = () => {
     return ( 
@@ -17,7 +18,7 @@ export const Experience = () => {
                     return (
                         <div key={id} className={styles.skill}>
                             <div className={styles.skillImageContainer}>
-                                <img src={getImageUrl(skill.imageSrc)} 
+                                <img src={(skill.imageSrc)} 
                                 alt={skill.title}/>
                             </div>
                             <p>{skill.title}</p>

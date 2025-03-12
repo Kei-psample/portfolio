@@ -1,12 +1,12 @@
 import React from "react";
 import styles from "./Me.module.css";
-import { getImageUrl } from "../../utils";
+import me from "/assets/me/meImage.png";
 
 export const Me = () => {
     return (
     <section className={styles.container}>
 
-        <img src={getImageUrl("me/meImage.png")} alt="My Profile" className={styles.MeImgss}/>
+        <img src={me} alt="My Profile" className={styles.MeImgss}/>
 
         <div className={styles.content}> 
             <h1 className={styles.title}>
@@ -18,7 +18,7 @@ export const Me = () => {
             </p>
             <a href="mailto:zeland.lmedia@gmail.com" className={styles.contactBtn}>Contact Me</a>
         </div>
-        <img src={getImageUrl("me/meImage.png")} alt="My Profile" className={styles.MeImgbs}/>
+        <img src={me} alt="My Profile" className={styles.MeImgbs}/>
             <div className={styles.topBlur} />
             <div className={styles.bottomBlur} />
     </section>
