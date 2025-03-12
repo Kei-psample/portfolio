@@ -1,0 +1,26 @@
+[
+    {
+        "role": "Bachelor of Science in Information Technology",
+        "organisation": "Gabriel Taborin College of Davao",
+        "startDate": "June 03, 2013",
+        "endDate": "March 31, 2017",
+        "experiences": ["Programming and Web Developing", "HTML and CSS", "Visual Basic Coding", "C# and Javascript"],
+        "imageSrc": "history/gtcd.png"
+    },
+    {
+        "role": "Data Entry Specialist",
+        "organisation": "Lmedia",
+        "startDate": "November 19, 2019",
+        "endDate": "January 05, 2022",
+        "experiences": ["Verifying and Validating Data", "Communicating with Teams", "Inputting Data", "Applying or Renewing Insurances ( House, Vehicle, Health)"],
+        "imageSrc": "history/dataentry.png"
+    },
+    {
+        "role": "IT Technical Support",
+        "organisation": "Gaisano Grand - Far East Noble House Inc.",
+        "startDate": "July 31, 2022",
+        "endDate": "December 31, 2024",
+        "experiences": ["Server and POS Maintenance", "Technical Support", "System Administration", "Network Troubleshooting", "Desktop Support"],
+        "imageSrc": "history/ggmp.png"
+    }
+]
