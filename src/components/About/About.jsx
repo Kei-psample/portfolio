@@ -1,9 +1,6 @@
 import React from "react";
 import styles from "./About.module.css";
-import aboutImg from "/assets/About/aboutImage.png";
-import cursorImg from "/assets/About/cursorImage.png";
-import serverImg from "/assets/About/serverImage.png";
-import uiImg from "/assets/About/uiImage.png";
+import { getImageUrl } from "../../utils";
 
 export const About = () => {
     return (
@@ -15,7 +12,7 @@ export const About = () => {
             <h2 className={styles.title}>About</h2>
                 
                 <li className={styles.aboutItem}>
-                    <img src={cursorImg} alt="Cursor Image"/>
+                    <img src={getImageUrl("about/cursorImage.png")} alt="Cursor Image"/>
                     <div className={styles.aboutItemText}> 
                         <h3>Frontend Developer</h3>
                         <p>
@@ -27,7 +24,7 @@ export const About = () => {
                 </li>
 
                 <li className={styles.aboutItem}>
-                    <img src={serverImg} alt="Server Image"/>
+                    <img src={getImageUrl("about/serverImage.png")} alt="Server Image"/>
                     <div className={styles.aboutItemText}>
                         <h3>Backend Developer</h3>
                         <p>
@@ -38,7 +35,7 @@ export const About = () => {
                 </li>
 
                 <li className={styles.aboutItem}>
-                    <img src={uiImg} alt="UI Image"/>
+                    <img src={getImageUrl("about/uiImage.png")} alt="UI Image"/>
                     <div className={styles.aboutItemText}>
                         <h3>UI Designer</h3>
                         <p>
@@ -51,7 +48,7 @@ export const About = () => {
             </ul>
 
             <div>
-                <img src={aboutImg} 
+                <img src={getImageUrl("about/aboutImage.png")} 
                 className={styles.aboutImage}
                 />
             </div>
