@@ -4,7 +4,7 @@
     {
         "title": "Web Blog Sample",
         "imageSrc": "projects/projectA.png",
-        "description": "This is a web blog list sample where you can share news or project type.",
+        "description": "This is a web blog sample where you can share news or project type.",
         "skills": ["React","Express", "Json", "Photoshop"],
         "demo": "https://my-sample-cyan.vercel.app/",
         "source": "https://github.com/Kei-psample/my-sample"
