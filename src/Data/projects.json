@@ -12,7 +12,7 @@
     {
         "title": "Workout List",
         "imageSrc": "projects/projectB.png",
-        "description": "This is a workout list web where you record your everyday workout.",
+        "description": "This is a web workout list where you record any type of your everyday workout.",
         "skills": ["React","Express", "MongoDb", "CSS"],
         "demo": "https://vercel.com/zeland-klient-quijanos-projects/fsample",
         "source": "https://github.com/Kei-psample/sample1"
