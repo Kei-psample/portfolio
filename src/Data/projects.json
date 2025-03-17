@@ -14,7 +14,7 @@
         "imageSrc": "projects/projectB.png",
         "description": "This is a web workout list where you record any type of your everyday workout.",
         "skills": ["React","Express", "MongoDb", "CSS"],
-        "demo": "https://vercel.com/zeland-klient-quijanos-projects/fsample",
+        "demo": "https://fsample.vercel.app/",
         "source": "https://github.com/Kei-psample/sample1"
     }
 ]
