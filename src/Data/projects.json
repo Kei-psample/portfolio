@@ -6,13 +6,13 @@
         "imageSrc": "projects/projectA.png",
         "description": "This is a web blog list sample where you can share news or project type.",
         "skills": ["React","Express", "Json", "Photoshop"],
-        "demo": "https://vercel.com/zeland-klient-quijanos-projects/my-sample",
+        "demo": "https://my-sample-cyan.vercel.app/",
         "source": "https://github.com/Kei-psample/my-sample"
     },
     {
-        "title": "Project B",
-        "imageSrc": "projects/projectA.png",
-        "description": "This is a sample MernStack Project.",
+        "title": "Workout List",
+        "imageSrc": "projects/projectB.png",
+        "description": "This is a workout list web where you record your everyday workout.",
         "skills": ["React","Express", "MongoDb", "CSS"],
         "demo": "https://vercel.com/zeland-klient-quijanos-projects/fsample",
         "source": "https://github.com/Kei-psample/sample1"
