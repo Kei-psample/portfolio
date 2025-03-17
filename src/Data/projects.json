@@ -2,9 +2,9 @@
 
 [
     {
-        "title": "Project A",
+        "title": "Web Blog Sample",
         "imageSrc": "projects/projectA.png",
-        "description": "This is a project to learn the latest React Nodejs.",
+        "description": "This is a web blog list sample where you can share news or project type.",
         "skills": ["React","Express", "Json", "Photoshop"],
         "demo": "https://vercel.com/zeland-klient-quijanos-projects/my-sample",
         "source": "https://github.com/Kei-psample/my-sample"
